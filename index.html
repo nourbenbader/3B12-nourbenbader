@@ -1,121 +1,144 @@
-<html>
-    <head>
-        <title>portfolio</title>
-    </head>
-    <body>
-    <header>
-        <nav navbar>
-        
-        <img src="image/LOGO.jpg " widh="100" height="100">
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
     
-   
-        <a href ="index.html">accueil</a>
-            <a href ="#portfolio" class="portfolio">protfolio</a>
-            <a href ="#a propos" class="a propos">a propos</a>
-            <a href ="#banniere" class="banniere" >contact</a>
-        
-            <br>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Nour</a>
+        <nav class="navigation">
+            <a href="#portfolio">portfolio</a>
+            <a href="#a propos">a propos</a>
+            <a href="#contact">contact</a>
+
         </nav>
-        <br>
-        <br>
-        <div classe ="brand">
-            
-          
-           <table>
-           <section class="a propos" id="a propos"></section>
-            <tr><h1>a propos</h1></tr>
-            <tr>
-                <td><img src="image/profil.jpg " widh="200" height="200"></td>
-                <td><h1> nour ben bader</h1><br>
-                    Je m'appelle Nour Ben Bader, j'ai 22 ans et je suis actuellement étudiant en troisième année d'informatique à l'ESPRIT. Passionné par les technologies de l'information
-                </td>
-            </tr>
-                </table>
-                <br>
-                <br>
-                <br>
-
-                <table>
-                    <section class="portfolio" id="portfolio"></section>
-                    <tr><h1>portfolio</h1></tr>
-                   
-
-
-               
-                 
-            <tr>
-                <td><h3>experience profissionnel </h3></td>
-                <td>Pendant mon stage de trois mois en Tunisie, j'ai eu l'opportunité de mettre en pratique mes compétences en développement web en réalisant un site dédié à l'analyse des données pour l'industrie aéronautique</td>
-            </tr>
-            <br>
-                <br>
-                <tr>
-                    <td><h3>formation </h3></td>
-                    <td>diplome de baccalauria 2019/2020 specialite mathematique<br>
-                        diplome de la faculte de science 2022/2023 specialite mathematique applicque a l'informatique
-                    </td>
-                    </tr>
-                    
-                    
-                <tr>
-                    <td><h3>langues </h3></td>
-                    <td>francais (courant)<br>
-                        anglais(courant)<br>
-                        espagniol (debutant)
-                       
-                    </td>
-                </tr>
-                
-                <tr>
-                    <td><h3>certification  </h3></td>
-                    <td>bigdata<br>
-                       python<br>
-                        java
-                       
-                    </td>
-                </tr>
-                
-                <br>
-        
-           </table>
-
-        
-            
 
     </header>
-    <br>
-    <br>
-    <br>
-    
-       
 
-                       
-<section class="banniere" id="banniere">
-        <div class="contactform">
-          <h3>Contacte_nous</h3>
-          <div class="inputboite">
-            <form>
-              <input type="text" placeholder="Nom d'utilisateur*">
-          </div>
-          <div class="inputboite">
-              <input type="emailt" placeholder="Adresse e-mail *">
-          </div>
-          
-          </div>
-          <div class="inputboite">
-            <form>
-              <input type="text" placeholder="Message*">
-          </div>
-          <div class="inputboite">
-            <a href="index.html" class="btn1">envoyer</a>
+
+   <section class="main">
+    <section class="image">
+        <td><img src="image/profil.jpg " widh="300" height="300"></td></section>
+   
+        <div>
+            <h2>Hello, I'm nour<br><span>etudiante</span></h2>
+         
+            <a href="#portfolio" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                
+            </div>
         </div>
-         </form> 
-      </div>
-      </section>
-    </body>
-    <footer>
-       
+    </section>
+    <table>
+        <section class="a propos" id="a propos"></section>
+        <h2 class="title1">a propos</h2>
+         <tr>
+             
+             <div class="text-container">
+             <td><h1> nour ben bader</h1><br>
+                Je m'appelle Nour Ben Bader, j'ai 22 ans et je suis actuellement étudiant en troisième année d'informatique à l'ESPRIT. Ma passion pour les technologies de l'information m'inspire dans mes études et me pousse à explorer constamment de nouvelles opportunités dans ce domaine en évolution rapide.
+             </td>
+         </tr>
+             </table>
+    
+    <section class="cards" id="portfolio">
+        <h2 class="title">portfolio</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>experience profissionnel</h3>
+                    <p>Pendant mon stage de trois mois en Tunisie, j'ai eu l'opportunité de mettre en pratique mes compétences en développement web en réalisant un site dédié à l'analyse des données pour l'industrie aéronautique</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="info">
+                    <h3>formation</h3>
+                    <p>diplome de baccalauria 2020 specialite mathematique </p>
+                        diplome de la faculte de science 2022/2023 specialite mathematique applicque a l'informatique</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-edit"></i>
+                </div>
+                <div class="info">
+                    <h3>langues</h3>
+                    <p>francais (courant)<br>
+                        anglais(courant)<br>
+                        espagniol (debutant)
+                       </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="info">
+                <h3>certification</h3>
+                <p>bigdata<br>
+                    python<br>
+                     java
+                   </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="cards contact" id="contact">
+        <h2 class="title">contact</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>98745632</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>nour.benbader@esprit.tn</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // Fonction pour afficher l'alerte de bienvenue
+        function afficherAlerteBienvenue() {
+            alert("Bienvenue dans le portfolio de Nour !");
+        }
 
+        // Appeler la fonction lorsque la page est entièrement chargée
+        window.onload = function() {
+            afficherAlerteBienvenue();
+        };
+    </script>
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>nourbenbader</span></p>
+        <div class="social-icons">
+            
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            
+        </div>
     </footer>
-        </html>
+</body>
